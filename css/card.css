@@ -1,0 +1,35 @@
+.business-card {
+    background-color: var(--background-color);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.logo-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 48px;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.clinic-name {
+    color: var(--text-color);
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.slogan {
+    color: #666;
+    font-size: 16px;
+}

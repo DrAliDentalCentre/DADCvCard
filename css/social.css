@@ -1,0 +1,32 @@
+.social-section {
+    display: grid;
+    gap: 15px;
+}
+
+.social-item a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+.social-item i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.social-item:nth-child(1) i { color: var(--facebook-color); }
+.social-item:nth-child(2) i { color: var(--instagram-color); }
+.social-item:nth-child(3) i { color: var(--whatsapp-color); }
+
+.social-item a:hover {
+    transform: translateX(10px);
+    background-color: var(--light-gray);
+}
+
+.social-item a:hover i {
+    filter: drop-shadow(0 0 8px currentColor);
+}

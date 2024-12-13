@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #0066cc;
+    --secondary-color: #004999;
+    --text-color: #333333;
+    --background-color: #ffffff;
+    --hover-color: #0052a3;
+    --light-gray: #f8f9fa;
+    
+    /* Social Media Colors */
+    --facebook-color: #1877f2;
+    --instagram-color: #e4405f;
+    --whatsapp-color: #25D366;
+}
